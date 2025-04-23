@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Themed Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer>
+      // Toggle navbar for mobile
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        const navbar = document.querySelector(".navbar");
+
+        hamburger.addEventListener("click", () => {
+          navbar.classList.toggle("show");
+        });
+
+        // Scroll animation for resource cards
+        const cards = document.querySelectorAll(".card");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+
+        cards.forEach((card) => observer.observe(card));
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav-container">
+        <div class="logo">CodeArmyX</div>
+        <nav class="navbar">
+          <a href="#">Home</a>
+          <a href="#resources">Resources</a>
+          <a href="#community">Community</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger">&#9776;</div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Empowering Learning with a Touch of CodeArmyX</h1>
+        <p>
+          Explore our curated resources and join our community of learners and
+          educators.
+        </p>
+        <div class="hero-buttons">
+          <a href="#resources" class="btn primary">Explore Resources</a>
+          <a href="#community" class="btn secondary">Join Community</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section" id="resources">
+      <h2>Top Resources</h2>
+      <p>This is the free resources provided by the CodeArmyX</p>
+      <div class="resource-grid">
+        <a class="card" href="dsa-sheet/sheet.html"
+          ><img src="https://img.icons8.com/color/96/book.png" />
+          <h3>DSA Sheet</h3>
+          <p>Find free DSA sheet and Notes to boost your skills.</p></a
+        >
+        <a
+          class="card"
+          href="https://youtube.com/@codearmyx?si=WFIO-qz9yRTLA6tl"
+          ><img src="https://img.icons8.com/color/96/video.png" />
+          <h3>Videos</h3>
+          <p>Watch tutorials and expert lessons to learn faster.</p></a
+        >
+        <a class="card" href="Notes/notes.html"
+          ><img
+            src="https://img.icons8.com/color/96/note.png"
+            alt="Notes Icon"
+          />
+          <h3>Notes</h3>
+          <p>Keep all your notes organized in one place.</p></a
+        >
+      </div>
+    </section>
+
+    <!-- Join Community Section -->
+    <section class="join-community" id="community">
+      <div class="content">
+        <h2>Join Our Community</h2>
+        <p>
+          Connect with like-minded learners, share your ideas, and grow
+          together.
+        </p>
+        <div class="icon-cards">
+          <a
+            class="card icon-card"
+            href="https://youtube.com/@codearmyx?si=WFIO-qz9yRTLA6tl"
+            ><img
+              src="https://img.icons8.com/color/96/youtube.png"
+              alt="YouTube"
+            />
+            <h3>Youtube</h3></a
+          >
+          <a
+            class="card icon-card"
+            href="https://www.linkedin.com/in/anmol-singh-13a99528a/"
+            ><img
+              src="https://img.icons8.com/color/96/linkedin.png"
+              alt="linkedin"
+            />
+            <h3>LinkedIn</h3></a
+          >
+          <a
+            class="card icon-card"
+            href="https://whatsapp.com/channel/0029Vb64qol8vd1QuBChWG2J"
+            ><img
+              src="https://img.icons8.com/color/96/whatsapp.png"
+              alt="WhatsApp"
+            />
+            <h3>WhatsApp</h3></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <div class="contact-image">
+          <img
+            src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg"
+            alt="Contact Illustration"
+          />
+        </div>
+    
+        <div class="form-container" id="contactFormSection">
+          <form id="submitToGoogleSheet">
+            <div class="contact-form">
+              <h2>Contact Us</h2>
+              <p>We’d love to hear from you. Drop us a message below!</p>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="userName"
+                  class="form-input"
+                  placeholder="Name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="userEmail"
+                  class="form-input"
+                  placeholder="E-mail"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="userMobile"
+                  class="form-input"
+                  placeholder="Mobile No."
+                  name="mobile"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="userMessage"
+                  class="form-textarea"
+                  placeholder="Message"
+                  rows="5"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" id="submitButton" class="submit-btn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>CodeArmyX</h3>
+          <p>Free resources and tools to empower your tech journey 🌿</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Subscribe to get our latest content by email.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <!-- <a href="#" class="social-icon"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png"/></a> -->
+            <a
+              href="https://whatsapp.com/channel/0029Vb64qol8vd1QuBChWG2J"
+              class="social-icon"
+              ><img
+                src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png"
+            /></a>
+            <a
+              href="https://youtube.com/@codearmyx?si=WFIO-qz9yRTLA6tl"
+              class="social-icon"
+              ><img
+                src="https://img.icons8.com/ios-filled/24/ffffff/youtube-play.png"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/anmol-singh-13a99528a/"
+              class="social-icon"
+              ><img
+                src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CodeArmyX. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+{
+    "easy": [
+      {
+        "name": "Climbing Stairs",
+        "link": "https://leetcode.com/problems/climbing-stairs/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "House Robber",
+        "link": "https://leetcode.com/problems/house-robber/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Fibonacci Number",
+        "link": "https://leetcode.com/problems/fibonacci-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Subarray",
+        "link": "https://leetcode.com/problems/maximum-subarray/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Min Cost Climbing Stairs",
+        "link": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Coin Change",
+        "link": "https://leetcode.com/problems/coin-change/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Palindromic Subsequence",
+        "link": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Partition Equal Subset Sum",
+        "link": "https://leetcode.com/problems/partition-equal-subset-sum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Unique Paths",
+        "link": "https://leetcode.com/problems/unique-paths/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Target Sum",
+        "link": "https://leetcode.com/problems/target-sum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Word Break",
+        "link": "https://leetcode.com/problems/word-break/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Burst Balloons",
+        "link": "https://leetcode.com/problems/burst-balloons/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Edit Distance",
+        "link": "https://leetcode.com/problems/edit-distance/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Wildcard Matching",
+        "link": "https://leetcode.com/problems/wildcard-matching/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Regular Expression Matching",
+        "link": "https://leetcode.com/problems/regular-expression-matching/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Palindrome Partitioning II",
+        "link": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Cost to Merge Stones",
+        "link": "https://leetcode.com/problems/minimum-cost-to-merge-stones/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

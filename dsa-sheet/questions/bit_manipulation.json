@@ -1,0 +1,105 @@
+{
+    "easy": [
+      {
+        "name": "Check if a Number is Power of Two",
+        "link": "https://leetcode.com/problems/power-of-two/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Single Number",
+        "link": "https://leetcode.com/problems/single-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Number of 1 Bits",
+        "link": "https://leetcode.com/problems/number-of-1-bits/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check if K-th bit is set",
+        "link": "https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Even Odd using Bitwise",
+        "link": "https://www.geeksforgeeks.org/problems/odd-or-even3618/1",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Single Number II",
+        "link": "https://leetcode.com/problems/single-number-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Bitwise AND of Numbers Range",
+        "link": "https://leetcode.com/problems/bitwise-and-of-numbers-range/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Counting Bits",
+        "link": "https://leetcode.com/problems/counting-bits/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reverse Bits",
+        "link": "https://leetcode.com/problems/reverse-bits/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Subset XOR",
+        "link": "https://www.geeksforgeeks.org/problems/subset-xor/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum XOR of Two Numbers in an Array",
+        "link": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Maximum XOR With an Element From Array",
+        "link": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count Total Set Bits",
+        "link": "https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "XOR Queries of a Subarray",
+        "link": "https://leetcode.com/problems/xor-queries-of-a-subarray/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find XOR Sum of All Pairs Bitwise AND",
+        "link": "https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum XOR Value Pair",
+        "link": "https://www.geeksforgeeks.org/problems/minimum-xor-value-pair/1",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

@@ -1,0 +1,123 @@
+{
+    "easy": [
+      {
+        "name": "Valid Parentheses",
+        "link": "https://leetcode.com/problems/valid-parentheses/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "link": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Implement Queue using Stacks",
+        "link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Evaluate Reverse Polish Notation",
+        "link": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Next Greater Element I",
+        "link": "https://leetcode.com/problems/next-greater-element-i/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Queue using two Stacks",
+        "link": "https://www.geeksforgeeks.org/problems/queue-using-two-stacks/1",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Daily Temperatures",
+        "link": "https://leetcode.com/problems/daily-temperatures/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Next Greater Element II",
+        "link": "https://leetcode.com/problems/next-greater-element-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Asteroid Collision",
+        "link": "https://leetcode.com/problems/asteroid-collision/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Design Circular Queue",
+        "link": "https://leetcode.com/problems/design-circular-queue/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "LRU Cache",
+        "link": "https://leetcode.com/problems/lru-cache/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Add to Make Parentheses Valid",
+        "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sum of Subarray Minimums",
+        "link": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Largest Rectangle in Histogram",
+        "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximal Rectangle",
+        "link": "https://leetcode.com/problems/maximal-rectangle/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove K Digits",
+        "link": "https://leetcode.com/problems/remove-k-digits/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Trapping Rain Water",
+        "link": "https://leetcode.com/problems/trapping-rain-water/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Expression Evaluation",
+        "link": "https://www.geeksforgeeks.org/problems/expression-evaluation/0",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

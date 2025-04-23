@@ -1,0 +1,105 @@
+{
+    "easy": [
+      {
+        "name": "Find the Town Judge",
+        "link": "https://leetcode.com/problems/find-the-town-judge/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Center of Star Graph",
+        "link": "https://leetcode.com/problems/find-center-of-star-graph/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find if Path Exists in Graph",
+        "link": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Graph Valid Tree",
+        "link": "https://leetcode.com/problems/graph-valid-tree/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Flood Fill",
+        "link": "https://leetcode.com/problems/flood-fill/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Number of Provinces",
+        "link": "https://leetcode.com/problems/number-of-provinces/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Course Schedule",
+        "link": "https://leetcode.com/problems/course-schedule/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Clone Graph",
+        "link": "https://leetcode.com/problems/clone-graph/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Network Delay Time",
+        "link": "https://leetcode.com/problems/network-delay-time/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Rotting Oranges",
+        "link": "https://leetcode.com/problems/rotting-oranges/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Is Graph Bipartite?",
+        "link": "https://leetcode.com/problems/is-graph-bipartite/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Course Schedule III",
+        "link": "https://leetcode.com/problems/course-schedule-iii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Alien Dictionary",
+        "link": "https://leetcode.com/problems/alien-dictionary/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Cost to Connect All Points",
+        "link": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Shortest Path in a Grid with Obstacles Elimination",
+        "link": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Path with Maximum Probability",
+        "link": "https://leetcode.com/problems/path-with-maximum-probability/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

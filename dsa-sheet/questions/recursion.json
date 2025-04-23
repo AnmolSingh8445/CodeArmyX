@@ -1,0 +1,111 @@
+{
+    "easy": [
+      {
+        "name": "Factorial of a Number",
+        "link": "https://www.geeksforgeeks.org/problems/factorial5739/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Fibonacci Number",
+        "link": "https://leetcode.com/problems/fibonacci-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Print 1 to N using Recursion",
+        "link": "https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sum of First N Natural Numbers",
+        "link": "https://www.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Power of Two",
+        "link": "https://leetcode.com/problems/power-of-two/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Pow(x, n)",
+        "link": "https://leetcode.com/problems/powx-n/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Generate Parentheses",
+        "link": "https://leetcode.com/problems/generate-parentheses/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Subsets",
+        "link": "https://leetcode.com/problems/subsets/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Letter Combinations of a Phone Number",
+        "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Permutations",
+        "link": "https://leetcode.com/problems/permutations/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Combination Sum",
+        "link": "https://leetcode.com/problems/combination-sum/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "N-Queens",
+        "link": "https://leetcode.com/problems/n-queens/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sudoku Solver",
+        "link": "https://leetcode.com/problems/sudoku-solver/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Word Search II",
+        "link": "https://leetcode.com/problems/word-search-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Palindrome Partitioning II",
+        "link": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Expression Add Operators",
+        "link": "https://leetcode.com/problems/expression-add-operators/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Restore IP Addresses",
+        "link": "https://leetcode.com/problems/restore-ip-addresses/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

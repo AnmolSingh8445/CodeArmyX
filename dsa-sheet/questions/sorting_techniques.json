@@ -1,0 +1,63 @@
+{
+    "easy": [
+      {
+        "name": "Bubble Sort",
+        "link": "https://www.geeksforgeeks.org/problems/bubble-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Selection Sort",
+        "link": "https://www.geeksforgeeks.org/problems/selection-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Insertion Sort",
+        "link": "https://www.geeksforgeeks.org/problems/insertion-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Counting Sort",
+        "link": "https://www.geeksforgeeks.org/problems/counting-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Merge Sort",
+        "link": "https://www.geeksforgeeks.org/problems/merge-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Quick Sort",
+        "link": "https://www.geeksforgeeks.org/problems/quick-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Heap Sort",
+        "link": "https://www.geeksforgeeks.org/problems/heap-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Radix Sort",
+        "link": "https://www.geeksforgeeks.org/problems/radix-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Bucket Sort",
+        "link": "https://www.geeksforgeeks.org/problems/bucket-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

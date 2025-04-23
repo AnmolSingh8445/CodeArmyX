@@ -1,0 +1,117 @@
+{
+    "easy": [
+      {
+        "name": "Reverse a String",
+        "link": "https://leetcode.com/problems/reverse-string/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check for Palindrome",
+        "link": "https://leetcode.com/problems/valid-palindrome/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check Anagram",
+        "link": "https://leetcode.com/problems/valid-anagram/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Implement strStr()",
+        "link": "https://leetcode.com/problems/implement-strstr/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count and Say",
+        "link": "https://leetcode.com/problems/count-and-say/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Palindromic Substring",
+        "link": "https://leetcode.com/problems/longest-palindromic-substring/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Group Anagrams",
+        "link": "https://leetcode.com/problems/group-anagrams/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "ZigZag Conversion",
+        "link": "https://leetcode.com/problems/zigzag-conversion/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "String Compression",
+        "link": "https://leetcode.com/problems/string-compression/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Integer to Roman",
+        "link": "https://leetcode.com/problems/integer-to-roman/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Roman to Integer",
+        "link": "https://leetcode.com/problems/roman-to-integer/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Wildcard Matching",
+        "link": "https://leetcode.com/problems/wildcard-matching/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Regular Expression Matching",
+        "link": "https://leetcode.com/problems/regular-expression-matching/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Window Substring",
+        "link": "https://leetcode.com/problems/minimum-window-substring/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Palindrome Pairs",
+        "link": "https://leetcode.com/problems/palindrome-pairs/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Word Ladder",
+        "link": "https://leetcode.com/problems/word-ladder/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Basic Calculator",
+        "link": "https://leetcode.com/problems/basic-calculator/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

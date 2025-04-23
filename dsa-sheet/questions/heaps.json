@@ -1,0 +1,141 @@
+{
+    "easy": [
+      {
+        "name": "Last Stone Weight",
+        "link": "https://leetcode.com/problems/last-stone-weight/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Kth Largest Element in a Stream",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Product of the Three Numbers",
+        "link": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sort Characters By Frequency",
+        "link": "https://leetcode.com/problems/sort-characters-by-frequency/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Kth Largest Integer in the Array",
+        "link": "https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Score After Splitting a String",
+        "link": "https://leetcode.com/problems/maximum-score-after-splitting-a-string/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Kth Largest XOR Coordinate Value",
+        "link": "https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Relative Ranks",
+        "link": "https://leetcode.com/problems/relative-ranks/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Number of Refueling Stops",
+        "link": "https://leetcode.com/problems/minimum-number-of-refueling-stops/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Top K Frequent Elements",
+        "link": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "K Closest Points to Origin",
+        "link": "https://leetcode.com/problems/k-closest-points-to-origin/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Kth Largest Element in an Array",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Median from Data Stream",
+        "link": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reorganize String",
+        "link": "https://leetcode.com/problems/reorganize-string/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reduce Array Size to The Half",
+        "link": "https://leetcode.com/problems/reduce-array-size-to-the-half/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Task Scheduler",
+        "link": "https://leetcode.com/problems/task-scheduler/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Merge k Sorted Lists",
+        "link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sliding Window Median",
+        "link": "https://leetcode.com/problems/sliding-window-median/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Cost to Hire K Workers",
+        "link": "https://leetcode.com/problems/minimum-cost-to-hire-k-workers/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Smallest Range Covering Elements from K Lists",
+        "link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Trapping Rain Water II",
+        "link": "https://leetcode.com/problems/trapping-rain-water-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Swim in Rising Water",
+        "link": "https://leetcode.com/problems/swim-in-rising-water/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

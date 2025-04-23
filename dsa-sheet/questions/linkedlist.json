@@ -1,0 +1,153 @@
+{
+    "easy": [
+      {
+        "name": "Reverse a Linked List",
+        "link": "https://leetcode.com/problems/reverse-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Middle of the Linked List",
+        "link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Detect Loop in Linked List",
+        "link": "https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove Duplicates from Sorted List",
+        "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Delete Node in a Linked List",
+        "link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Linked List Cycle",
+        "link": "https://leetcode.com/problems/linked-list-cycle/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check if Linked List is Palindrome",
+        "link": "https://leetcode.com/problems/palindrome-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Length of Linked List",
+        "link": "https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Add Two Numbers",
+        "link": "https://leetcode.com/problems/add-two-numbers/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove N-th Node From End",
+        "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Intersection Point in Y Shaped Linked Lists",
+        "link": "https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Odd Even Linked List",
+        "link": "https://leetcode.com/problems/odd-even-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Swap Nodes in Pairs",
+        "link": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Flatten a Multilevel Doubly Linked List",
+        "link": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Rotate Linked List",
+        "link": "https://leetcode.com/problems/rotate-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove Loop in Linked List",
+        "link": "https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Reverse Nodes in k-Group",
+        "link": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Merge k Sorted Lists",
+        "link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Copy List with Random Pointer",
+        "link": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Linked List Cycle II (Start of Cycle)",
+        "link": "https://leetcode.com/problems/linked-list-cycle-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "LRU Cache (Using LinkedList + HashMap)",
+        "link": "https://leetcode.com/problems/lru-cache/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Flatten a Linked List (GFG)",
+        "link": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sort List (Merge Sort on Linked List)",
+        "link": "https://leetcode.com/problems/sort-list/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reorder List",
+        "link": "https://leetcode.com/problems/reorder-list/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

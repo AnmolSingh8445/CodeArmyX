@@ -1,0 +1,75 @@
+{
+    "easy": [
+      {
+        "name": "Implement Trie (Prefix Tree)",
+        "link": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Search Suggestions System",
+        "link": "https://leetcode.com/problems/search-suggestions-system/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Replace Words",
+        "link": "https://leetcode.com/problems/replace-words/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Word Search II",
+        "link": "https://leetcode.com/problems/word-search-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Word in Dictionary",
+        "link": "https://leetcode.com/problems/longest-word-in-dictionary/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Prefix and Suffix Search",
+        "link": "https://leetcode.com/problems/prefix-and-suffix-search/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum XOR of Two Numbers in an Array",
+        "link": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Palindrome Pairs",
+        "link": "https://leetcode.com/problems/palindrome-pairs/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Stream of Characters",
+        "link": "https://leetcode.com/problems/stream-of-characters/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Concatenated Words",
+        "link": "https://leetcode.com/problems/concatenated-words/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Design Search Autocomplete System",
+        "link": "https://leetcode.com/problems/design-search-autocomplete-system/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

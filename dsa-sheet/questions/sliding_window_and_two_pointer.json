@@ -1,0 +1,105 @@
+{
+    "easy": [
+      {
+        "name": "Two Sum II - Input Array Is Sorted",
+        "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove Duplicates from Sorted Array",
+        "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Squares of a Sorted Array",
+        "link": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reverse String II",
+        "link": "https://leetcode.com/problems/reverse-string-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Move Zeroes",
+        "link": "https://leetcode.com/problems/move-zeroes/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Permutation in String",
+        "link": "https://leetcode.com/problems/permutation-in-string/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Size Subarray Sum",
+        "link": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Repeating Character Replacement",
+        "link": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Subarrays with K Different Integers",
+        "link": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Fruit Into Baskets",
+        "link": "https://leetcode.com/problems/fruit-into-baskets/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Sliding Window Maximum",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Window Substring",
+        "link": "https://leetcode.com/problems/minimum-window-substring/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Substring with At Most Two Distinct Characters",
+        "link": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Max Consecutive Ones III",
+        "link": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count Number of Nice Subarrays",
+        "link": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

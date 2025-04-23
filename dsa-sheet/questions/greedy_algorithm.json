@@ -1,0 +1,111 @@
+{
+    "easy": [
+      {
+        "name": "Assign Cookies",
+        "link": "https://leetcode.com/problems/assign-cookies/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Lemonade Change",
+        "link": "https://leetcode.com/problems/lemonade-change/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Monotonic Array",
+        "link": "https://leetcode.com/problems/monotonic-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Valid Parenthesis String",
+        "link": "https://leetcode.com/problems/valid-parenthesis-string/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check if It Is a Straight Line",
+        "link": "https://leetcode.com/problems/check-if-it-is-a-straight-line/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Jump Game",
+        "link": "https://leetcode.com/problems/jump-game/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Gas Station",
+        "link": "https://leetcode.com/problems/gas-station/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Queue Reconstruction by Height",
+        "link": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Partition Labels",
+        "link": "https://leetcode.com/problems/partition-labels/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Non-overlapping Intervals",
+        "link": "https://leetcode.com/problems/non-overlapping-intervals/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Number of Arrows to Burst Balloons",
+        "link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Length of Pair Chain",
+        "link": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Candy",
+        "link": "https://leetcode.com/problems/candy/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Create Maximum Number",
+        "link": "https://leetcode.com/problems/create-maximum-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Number of Refueling Stops",
+        "link": "https://leetcode.com/problems/minimum-number-of-refueling-stops/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Patching Array",
+        "link": "https://leetcode.com/problems/patching-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "IPO",
+        "link": "https://leetcode.com/problems/ipo/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

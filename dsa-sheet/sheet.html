@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DSA Sheet</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f5f3ff;
+        margin: 0;
+        padding: 20px;
+        color: #1f1f2e;
+      }
+
+      h1 {
+        text-align: center;
+        color: #4f46e5;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+
+      .topic-container {
+        background-color: #ede9fe;
+        border: 2px solid #c4b5fd;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.1);
+      }
+
+      .topic-header {
+        font-size: 1.4em;
+        color: #4f46e5;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: color 0.3s;
+      }
+
+      .topic-header:hover {
+        color: #7c3aed;
+      }
+
+      .difficulty-buttons {
+        display: none;
+        margin-top: 10px;
+      }
+
+      .difficulty-buttons button {
+        margin-right: 10px;
+        padding: 8px 16px;
+        background-color: #7c3aed;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      .difficulty-buttons button:hover {
+        background-color: #5b21b6;
+      }
+
+      .question-table {
+        display: none;
+        margin-top: 15px;
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .question-table th,
+      .question-table td {
+        border: 1px solid #ddd6fe;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .question-table th {
+        background-color: #7c3aed;
+        color: white;
+      }
+
+      .question-table tr:nth-child(even) {
+        background-color: #f3e8ff;
+      }
+
+      .question-table tr.completed {
+        background-color: #e0e7ff;
+        text-decoration: line-through;
+      }
+
+      .btn-link,
+      .btn-doc,
+      .btn-video {
+        padding: 6px 10px;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 500;
+      }
+
+      .btn-link {
+        background-color: #4f46e5;
+      }
+
+      .btn-doc {
+        background-color: #10b981;
+      }
+
+      .btn-video {
+        background-color: #dc2626;
+      }
+
+      .btn-link:hover,
+      .btn-doc:hover,
+      .btn-video:hover {
+        opacity: 0.85;
+      }
+
+      input[type="checkbox"] {
+        transform: scale(1.2);
+        accent-color: #4f46e5;
+      }
+
+      .progress-container {
+        margin-top: 10px;
+      }
+
+      .progress-bar {
+        height: 20px;
+        background-color: #ddd6fe;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background-color: #4f46e5;
+        width: 0%;
+        transition: width 0.3s ease-in-out;
+        text-align: center;
+        color: white;
+        font-size: 0.9em;
+        line-height: 20px;
+      }
+
+      .modal {
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: none;
+      }
+
+      .modal-content {
+        background-color: #fff;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 8px;
+        width: 60%;
+        max-width: 600px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .close {
+        float: right;
+        font-size: 28px;
+        cursor: pointer;
+      }
+
+      textarea {
+        width: 95%;
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      .modal button {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📗 DSA Preparation Sheet</h1>
+
+    <div id="noteModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeNoteModal()">&times;</span>
+        <h3>Write Notes</h3>
+        <textarea id="noteText" rows="10" cols="50" placeholder="Write your approach or notes here..."></textarea>
+        <br />
+        <button onclick="saveNote()">Save Note</button>
+      </div>
+    </div>
+
+    <script>
+      const topics = [
+        "sorting_techniques", "arrays", "binary_search", "string", "linkedlist",
+        "recursion", "bit_manipulation", "stack_and_queue", "sliding_window_and_two_pointer",
+        "heaps", "greedy_algorithm", "binary_tree", "binary_search_tree", "graph",
+        "dynamic_programming", "tries"
+      ];
+
+      const questionCounts = {};
+      let currentNoteKey = "";
+
+      const readable = (str) => str.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const body = document.body;
+
+        topics.forEach((topic) => {
+          body.innerHTML += `
+            <div class="topic-container" id="topic-${topic}">
+              <div class="topic-header" onclick="loadQuestions('${topic}')">
+                ${readable(topic)} <span>▼</span>
+              </div>
+              <div class="progress-container">
+                <div class="progress-bar">
+                  <div id="${topic}-progress" class="progress-fill">0%</div>
+                </div>
+              </div>
+              <div id="${topic}-diff" class="difficulty-buttons">
+                <button onclick="showQuestions('${topic}', 'easy')">Easy</button>
+                <button onclick="showQuestions('${topic}', 'medium')">Medium</button>
+                <button onclick="showQuestions('${topic}', 'hard')">Hard</button>
+              </div>
+              <div id="${topic}-tables"></div>
+            </div>`;
+        });
+
+        topics.forEach((topic) => {
+          fetch(`questions/${topic}.json`)
+            .then((res) => res.json())
+            .then((data) => {
+              const progress = JSON.parse(localStorage.getItem(`progress-${topic}`) || "{}");
+              const total = ["easy", "medium", "hard"].reduce((sum, lvl) => sum + (data[lvl]?.length || 0), 0);
+              questionCounts[topic] = total;
+              const done = Object.values(progress).filter(Boolean).length;
+              const percent = total > 0 ? Math.round((done / total) * 100) : 0;
+
+              const bar = document.getElementById(`${topic}-progress`);
+              if (bar) {
+                bar.style.width = `${percent}%`;
+                bar.textContent = `${percent}%`;
+              }
+            });
+        });
+      });
+
+      function loadQuestions(topic) {
+        const diffButtons = document.getElementById(`${topic}-diff`);
+        const tablesDiv = document.getElementById(`${topic}-tables`);
+
+        if (diffButtons.style.display === "block") {
+          diffButtons.style.display = "none";
+          tablesDiv.innerHTML = "";
+          return;
+        }
+
+        fetch(`questions/${topic}.json`)
+          .then((response) => response.json())
+          .then((data) => {
+            diffButtons.style.display = "block";
+            tablesDiv.innerHTML = "";
+
+            ["easy", "medium", "hard"].forEach((level) => {
+              const questions = data[level] || [];
+              let tableHTML = `
+                <table id="${topic}-${level}" class="question-table">
+                  <tr>
+                    <th>Done</th><th>Question</th><th>Practice</th><th>Notes</th><th>Video</th>
+                  </tr>
+              `;
+
+              questions.forEach((q, idx) => {
+                const savedProgress = JSON.parse(localStorage.getItem(`progress-${topic}`) || "{}");
+                const isChecked = savedProgress[`${level}-${idx}`] ? "checked" : "";
+                const completedClass = savedProgress[`${level}-${idx}`] ? "completed" : "";
+
+                tableHTML += `
+                  <tr class="${completedClass}">
+                    <td><input type="checkbox" onchange="markDone(this, '${topic}', '${level}', ${idx})" ${isChecked}></td>
+                    <td>${q.name}</td>
+                    <td><a href="${q.link}" target="_blank"><button class="btn-link">Link</button></a></td>
+                    <td><button class="btn-doc" data-topic="${topic}" data-level="${level}" data-index="${idx}">Notes</button></td>
+                    <td><button class="btn-video" onclick="alert('Video Coming Soon')">Video</button></td>
+                  </tr>`;
+              });
+
+              tableHTML += `</table>`;
+              tablesDiv.innerHTML += tableHTML;
+            });
+
+            updateProgress(topic);
+          })
+          .catch((err) => {
+            console.error(`Error loading ${topic}.json:`, err);
+            tablesDiv.innerHTML = `<p style="color:red;">Failed to load questions for ${readable(topic)}.</p>`;
+          });
+      }
+
+      function showQuestions(topic, level) {
+        ["easy", "medium", "hard"].forEach((lvl) => {
+          const table = document.getElementById(`${topic}-${lvl}`);
+          if (table) table.style.display = lvl === level ? "table" : "none";
+        });
+      }
+
+      function markDone(checkbox, topic, level, index) {
+        const row = checkbox.closest("tr");
+        row.classList.toggle("completed", checkbox.checked);
+
+        const progress = JSON.parse(localStorage.getItem(`progress-${topic}`) || "{}");
+        progress[`${level}-${index}`] = checkbox.checked;
+        localStorage.setItem(`progress-${topic}`, JSON.stringify(progress));
+
+        updateProgress(topic);
+      }
+
+      function updateProgress(topic) {
+        const progress = JSON.parse(localStorage.getItem(`progress-${topic}`) || "{}");
+        const total = questionCounts[topic] || 0;
+        const done = Object.values(progress).filter(Boolean).length;
+        const percent = total > 0 ? Math.round((done / total) * 100) : 0;
+
+        const bar = document.getElementById(`${topic}-progress`);
+        if (bar) {
+          bar.style.width = `${percent}%`;
+          bar.textContent = `${percent}%`;
+        }
+      }
+
+      function openNoteModal(topic, level, index) {
+        currentNoteKey = `note-${topic}-${level}-${index}`;
+        const savedNote = localStorage.getItem(currentNoteKey) || "";
+        document.getElementById("noteText").value = savedNote;
+        document.getElementById("noteModal").style.display = "block";
+      }
+
+      function closeNoteModal() {
+        document.getElementById("noteModal").style.display = "none";
+        currentNoteKey = "";
+      }
+
+      function saveNote() {
+        const content = document.getElementById("noteText").value;
+        if (currentNoteKey) {
+          localStorage.setItem(currentNoteKey, content);
+        }
+        closeNoteModal();
+      }
+
+      // ✅ Event delegation for dynamically generated buttons
+      document.addEventListener("click", (e) => {
+        if (e.target.classList.contains("btn-doc")) {
+          const topic = e.target.dataset.topic;
+          const level = e.target.dataset.level;
+          const index = e.target.dataset.index;
+          openNoteModal(topic, level, index);
+        }
+      });
+    </script>
+  </body>
+</html>

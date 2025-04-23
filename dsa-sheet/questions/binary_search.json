@@ -1,0 +1,135 @@
+{
+    "easy": [
+      {
+        "name": "Binary Search in a Sorted Array",
+        "link": "https://leetcode.com/problems/binary-search/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "First Occurrence of a Number",
+        "link": "https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Last Occurrence of a Number",
+        "link": "https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count Occurrences in Sorted Array",
+        "link": "https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Floor of a Number in Sorted Array",
+        "link": "https://www.geeksforgeeks.org/floor-in-a-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Ceil of a Number in Sorted Array",
+        "link": "https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Search in Rotated Sorted Array",
+        "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Minimum in Rotated Sorted Array",
+        "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Search in Nearly Sorted Array",
+        "link": "https://www.geeksforgeeks.org/search-element-nearly-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Peak Element",
+        "link": "https://leetcode.com/problems/find-peak-element/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Square Root of a Number",
+        "link": "https://leetcode.com/problems/sqrtx/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find Position of an Element in Infinite Sorted Array",
+        "link": "https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find First and Last Position of an Element",
+        "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Median of Two Sorted Arrays",
+        "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find K-th Element of Two Sorted Arrays",
+        "link": "https://www.geeksforgeeks.org/k-th-element-of-two-sorted-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Allocate Minimum Number of Pages",
+        "link": "https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Aggressive Cows (Min Distance Problem)",
+        "link": "https://www.spoj.com/problems/AGGRCOW/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Book Allocation Problem",
+        "link": "https://www.geeksforgeeks.org/allocate-minimum-number-pages/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Painters Partition Problem",
+        "link": "https://www.geeksforgeeks.org/painters-partition-problem/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Capacity to Ship Packages Within D Days",
+        "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Split Array Largest Sum",
+        "link": "https://leetcode.com/problems/split-array-largest-sum/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  

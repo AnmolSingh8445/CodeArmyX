@@ -1,0 +1,249 @@
+{
+    "easy": [
+      {
+        "name": "Find the Largest Element in an Array",
+        "link": "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Second Largest Element",
+        "link": "https://www.geeksforgeeks.org/problems/second-largest3735/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Check if Array is Sorted",
+        "link": "https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Reverse an Array",
+        "link": "https://www.geeksforgeeks.org/problems/reverse-an-array/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Remove Duplicates from a Sorted Array",
+        "link": "https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Left Rotate the Array by One Place",
+        "link": "https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Move All Zeros to the End",
+        "link": "https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Missing Number",
+        "link": "https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Number that Appears Once",
+        "link": "https://www.geeksforgeeks.org/problems/element-appearing-once2552/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count Frequency of Each Element",
+        "link": "https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "medium": [
+      {
+        "name": "Two Sum",
+        "link": "https://leetcode.com/problems/two-sum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Subarray with Sum K (positive & negative integers)",
+        "link": "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Kth Largest Element in an Array",
+        "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sort 0s, 1s, and 2s",
+        "link": "https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Subarray Sum Equals K",
+        "link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Majority Element (> N/2 times)",
+        "link": "https://www.geeksforgeeks.org/problems/majority-element-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Duplicate Number",
+        "link": "https://leetcode.com/problems/find-the-duplicate-number/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Merge Intervals",
+        "link": "https://leetcode.com/problems/merge-intervals/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Next Permutation",
+        "link": "https://leetcode.com/problems/next-permutation/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Set Matrix Zeroes",
+        "link": "https://leetcode.com/problems/set-matrix-zeroes/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Spiral Matrix Traversal",
+        "link": "https://leetcode.com/problems/spiral-matrix/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Product Subarray",
+        "link": "https://leetcode.com/problems/maximum-product-subarray/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Best Time to Buy and Sell Stock II",
+        "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Kadane’s Algorithm",
+        "link": "https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find all Duplicates in an Array",
+        "link": "https://leetcode.com/problems/find-all-duplicates-in-an-array/",
+        "notes": "#",
+        "video": "#"
+      }
+    ],
+    "hard": [
+      {
+        "name": "Median of Two Sorted Arrays",
+        "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Subarray Sum with One Deletion",
+        "link": "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Count Inversions in an Array",
+        "link": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Largest Rectangle in Histogram",
+        "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum of All Subarrays of Size K",
+        "link": "https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Trapping Rain Water",
+        "link": "https://leetcode.com/problems/trapping-rain-water/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Number of Swaps to Sort Array",
+        "link": "https://www.geeksforgeeks.org/problems/minimum-swaps/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Maximum Sum Rectangle in a 2D Matrix",
+        "link": "https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "link": "https://leetcode.com/problems/sliding-window-maximum/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Merge K Sorted Arrays",
+        "link": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Longest Substring with At Most K Distinct Characters",
+        "link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Minimum Window Substring",
+        "link": "https://leetcode.com/problems/minimum-window-substring/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the First Missing Positive",
+        "link": "https://leetcode.com/problems/first-missing-positive/",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Subarray with XOR = K",
+        "link": "https://www.geeksforgeeks.org/problems/subarrays-with-xor-value-k/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
+        "notes": "#",
+        "video": "#"
+      },
+      {
+        "name": "Find the Smallest Range Covering Elements from K Lists",
+        "link": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "notes": "#",
+        "video": "#"
+      }
+    ]
+  }
+  
